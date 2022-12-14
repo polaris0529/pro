@@ -1,0 +1,67 @@
+doctype html
+html(lang="ko")
+  head
+    meta(charset="UTF-8")
+    meta(http-equiv="X-UA-Compatible", content="IE=edge")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title Document
+  body 
+    #wrap 
+      #header 
+      #main
+        #form
+          div 
+            span name : &nbsp
+            input(type='text',id='name',name='name') 
+          div 
+            span comment : &nbsp
+            input(type='text',id='comment',name='comment')
+          div 
+            span age : &nbsp
+            input(type='text',id='age',name='age')
+          div 
+            span married : &nbsp
+            input(type='text',id='married',name='married')
+          div 
+            button(id='submit',name='submit') 제출
+      #footer
+
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+script(type='text/javascript').
+  var button = document.getElementById('submit');
+  console.log(button);
+
+  button.addEventListener('click',function(){
+
+    //- axios.post('/user/userInfoUpdate',{},{
+    //-   data : {
+    //-     'username' : document.getElementById('username').value,
+    //-     'comment'  : document.getElementById('comment').value        
+    //-   }
+    //- }).then((res)=>{
+    //-   console.log(res);
+    //- }).catch((error)=>{
+    //-   console.log(error);
+    //- })
+
+  //data : 요청 방식이 'PUT', 'POST', 'PATCH' 해당하는 경우 body에 보내는 데이터
+  //params : URL 파라미터 ( ?key=value 로 요청하는 url get방식을 객체로 표현한 것)
+
+  axios({
+    url : '/user/userInfoInsert',
+    method : 'POST',
+    data : {
+         'name' : document.getElementById('name').value,
+         'comment'  : document.getElementById('comment').value,
+         'age'  : document.getElementById('age').value,
+         'married'  : document.getElementById('married').value
+       },      
+    responseType : 'text'       
+  }).then((res)=>{
+    console.log(res);
+  }).catch((error)=>{
+    console.log(error);
+  })
+
+    
+  });
