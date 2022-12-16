@@ -1,0 +1,68 @@
+
+https://velog.io/@cookie004/nodejs-overview
+https://velog.io/@hopsprings2/%EA%B2%AC%EA%B3%A0%ED%95%9C-node.js-%ED%94%84%EB%A1%9C%EC%A0%9D%ED%8A%B8-%EC%95%84%ED%82%A4%ED%85%8D%EC%B3%90-%EC%84%A4%EA%B3%84%ED%95%98%EA%B8%B0   견고한 node.js 프로젝트 설계하기
+https://firework-ham.tistory.com/59 노드 서버의 Router 구조 잡기.
+
+https://jeonghwan-kim.github.io/agenda/ agenda job 정의 
+
+
+https://github.com/santiq/bulletproof-nodejs // bullertproof-nodejs
+
+https://chan180.tistory.com/164 모르간 
+https://inpa.tistory.com/entry/EXPRESS-%F0%9F%93%9A-morgan-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4
+
+
+https://inpa.tistory.com/entry/EXPRESS-%F0%9F%93%9A-%EB%AF%B8%EB%93%A4%EC%9B%A8%EC%96%B4-%F0%9F%92%AF-%EC%9D%B4%ED%95%B4-%EC%A0%95%EB%A6%AC?category=898807
+
+https://velog.io/@kimkevin90/%EC%8B%9C%ED%80%84%EB%9D%BC%EC%9D%B4%EC%A6%88Sequelize-%EA%B8%B0%EB%B3%B8-%EC%82%AC%EC%9A%A9%EB%B2%95 시퀄라이저 사용법
+
+https://ellapresso.tistory.com/61 시퀄라이저 데이터 타입
+
+https://gofnrk.tistory.com/116
+
+https://velog.io/@kyzluv/NODEENV-%ED%99%9C%EC%9A%A9%ED%95%98%EA%B8%B0 node_env 사용 os 별 
+
+
+https://morningame.tistory.com/27 git  centos 설정 
+
+https://okky.kr/articles/391778 okky_erd sample 
+
+
+
+https://velog.io/@hwsa1004/Github-Action-AWS-CodeDeploy-NGINX-%EC%84%9C%EB%B2%84-%EB%AC%B4%EC%A4%91%EB%8B%A8-%EB%B0%B0%ED%8F%AC%ED%95%98%EA%B8%B0 nginx 무중단 배포 ;
+
+https://close852.tistory.com/106 정적파일 경로 
+
+https://jeong-pro.tistory.com/65 pug 문법 
+
+https://juni-dev-log.tistory.com/89 템플릿 엔진의 랜더링 방식
+
+https://stackoverflow.com/questions/19059580/client-on-node-js-uncaught-referenceerror-require-is-not-defined 클라이언트 브라우저에 없는 require 을 사용하는법 
+
+
+
+
+https://velog.io/@jeeho102/RDB-%EC%8A%A4%ED%82%A4%EB%A7%88%EC%84%A4%EA%B3%84 rdb 설계 
+
+
+https://wooooooak.github.io/web/2018/11/10/req.params-vs-req.query/ axios 추가 데이터 사용법 
+
+https://sequelize.org/docs/v6/core-concepts/model-instances/ 시퀄라이즈 공식
+loaders 
+
+최신 Ecma Script 지원
+Typescript (선택사항이나 사용 추세가 계속 늘어나고 있음)
+CORS
+HTTP 헤더 보안 (Express는 helmet을 사용)
+Configuration
+Interceptor
+Middleware
+Scheduling
+Logging
+Testing
+Swagger 문서화
+ORM
+
+dotenv 를 왜 써야하는가 ? 
+
+프로젝트를 진행할때 개발 대부분 협업으로 진행된다. 하지만 각 개발자가 개발을 하는 환경은 같을 수가 없기 때문에 환경변수를 등록하는 과정에서 의존성 문제가 발생할 수 있다. node에서는 이러한 의존성 문제를 해결하기 위해 dotenv 라는 모듈을 제공한다. 

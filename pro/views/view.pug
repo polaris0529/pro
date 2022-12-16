@@ -1,0 +1,12 @@
+extends include.pug
+block styles
+  
+  #header
+    div result : #{result}
+    ul#left
+      - each val,index in [1,2,3,4,5]
+        li = 'item'
+  #main 
+  #footer
+
+block scripts
